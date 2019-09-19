@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="quiz.css"></link>
+    <script  type="text/javascript" src="quiz1.js"></script>
+    <title>Online Quiz</title>
+</head>
+<!--  <body onload="checkCookie()"> -->
+
+<body onLoad="fetchQuestion()" >
+<h1 id="results"></h1>
+<div id="outerDiv">
+	<form name="form1"  >
+    <div id="queDiv" ></div>
+    <div id="ansDiv" >
+    	
+    	 <input type="radio" name="question1" id="0" value=""/><label id="option1"></label><br>
+ 		 <input type="radio" name="question1" id="1" value=""/><label id="option2"></label><br>
+ 		 <input type="radio" name="question1" id="2" value=""/><label id="option3"></label><br>
+ 		 <input type="radio" name="question1" id="3" value=""/><label id="option4"></label><br>
+ 	   
+    </div>
+   	
+    <p id="demo"></p>
+   
+    <button style="font-size:30px" type="button" onclick=" validateForm() && fetchQuestion() ">Next&raquo;</button>
+    
+    </form>
+</div>    
+
+</body>
+</html>

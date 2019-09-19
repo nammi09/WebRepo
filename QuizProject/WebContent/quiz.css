@@ -1,0 +1,41 @@
+body
+{
+	background-color: black;
+	color:white;
+}
+.wrapper {
+    text-align: center;
+}
+#queDiv
+{
+background-color: lightgrey;
+font-size: 50px;
+
+  width: 100%;
+  border: 1px solid green;
+  padding: 40px;
+  margin: 0px;
+  margin-bottom=-5px;
+}
+#ansDiv
+{
+background-color:blue;
+font-size: 40px;
+text-align:20px;
+  width: 100%;
+  border: 1px solid green;
+  padding: 40px;
+  margin: 0px;
+}
+.button{
+	position:absolute;
+	font-size:20px;
+	float:left;
+	
+	
+}
+ input[type=radio] {
+    border: 0px;
+    width: 5%;
+    height: 2em;
+}
